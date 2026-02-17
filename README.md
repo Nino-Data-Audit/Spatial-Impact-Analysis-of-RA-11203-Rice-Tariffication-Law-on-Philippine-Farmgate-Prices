@@ -3,7 +3,7 @@ Utilizes a Spatial Difference-in-Differences (SDiD) audit to evaluate the impact
 
 📊 Executive Summary
 
-This repository executes a Spatial Difference-in-Differences (SDiD) audit to evaluate the impact of the Rice Competitiveness Enhancement Fund (RCEF) on farmgate prices across 81 Philippine provinces. By accounting for spatial autocorrelation, the model isolates the true policy effect from regional market "contagion"
+This repository executes a Spatial Difference-in-Differences (SDiD) audit to evaluate the impact of the Rice Competitiveness Enhancement Fund (RCEF) on farmgate prices across 81 Philippine provinces. By accounting for spatial autocorrelation, the model isolates the true policy effect from regional market "contagion."
 
 🧠 Key Econometric Findings
 
@@ -27,4 +27,12 @@ The Logical Audit: Synchronized tabular data with a .json shapefile to ensure to
 
 🗺️ Diagnostic Visualization
 
-The Spatial Residual Map (included in the output/ folder) confirms a well-specified model. The random distribution of residuals indicates that the spatial lag successfully captured localized shocks, leaving behind only the "pure" policy impact signal.
+🗺️ Diagnostic Visualizations
+1. Parallel Trends Validation
+This plot confirms that before the 2019 intervention, the treatment and control provinces followed a similar price trajectory, satisfying the core assumption of DiD modeling.
+
+3. Spatial Connectivity (W-Matrix)
+This visualization illustrates the KNN-based spatial weights matrix used to control for geographic price contagion.
+
+4. Residual Map (Model Accuracy)
+The Spatial Residual Map confirms a well-specified model. The random distribution of residuals indicates that the spatial lag successfully captured localized shocks.
