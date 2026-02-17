@@ -1,10 +1,12 @@
 # Spatial-Impact-Analysis-of-Rice-Tariffication-Law-on-Philippine-Farmgate-Prices
-Utilizes a Spatial Difference-in-Differences (SDiD) audit to evaluate the impact of the Rice Competitiveness Enhancement Fund (RCEF) on farmgate prices across 81 Philippine provinces. By accounting for spatial autocorrelation, the model isolates the true policy effect from regional market "contagion".
+Utilizes a Spatial Difference-in-Differences (SDiD) audit to evaluate the impact of the Rice Competitiveness Enhancement Fund (RCEF) on farmgate prices across 81 Philippine provinces.
 
 📊 Executive Summary
+
 This repository executes a Spatial Difference-in-Differences (SDiD) audit to evaluate the impact of the Rice Competitiveness Enhancement Fund (RCEF) on farmgate prices across 81 Philippine provinces. By accounting for spatial autocorrelation, the model isolates the true policy effect from regional market "contagion"
 
 🧠 Key Econometric Findings
+
 The Treatment Effect ($\beta$): -0.28 (p < 0.001) — Confirms a statistically significant revenue contraction for farmers in RCEF-priority provinces compared to control groups.
 
 The Spatial Contagion ($\rho$): 0.87 — Reveals that 87% of price shocks are shared with neighboring provinces, proving that standard OLS models would yield biased results due to SUTVA violations.
