@@ -21,6 +21,7 @@ The Logical Audit: Synchronized tabular data with a .json shapefile to ensure to
 
 
 🗺️ Diagnostic Visualizations
+
 ![Parallel Trends](parallel-trends.png)
 1. Parallel Trends Validation
 This plot confirms that before the 2019 intervention, the treatment and control provinces followed a similar price trajectory, satisfying the core assumption of DiD modeling.
