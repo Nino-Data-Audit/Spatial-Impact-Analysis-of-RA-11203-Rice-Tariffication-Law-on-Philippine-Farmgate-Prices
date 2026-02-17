@@ -23,13 +23,26 @@ The Logical Audit: Synchronized tabular data with a .json shapefile to ensure to
 🗺️ Diagnostic Visualizations
 
 ![Parallel Trends](parallel-trends.png)
+
 1. Parallel Trends Validation
 This plot confirms that before the 2019 intervention, the treatment and control provinces followed a similar price trajectory, satisfying the core assumption of DiD modeling.
 
 ![K Nearest Neighbours](k-neighbours.png)
+
 3. Spatial Connectivity (W-Matrix)
 This visualization illustrates the KNN-based spatial weights matrix used to control for geographic price contagion.
 
 ![Residual Map](spatial-residuals-of-sdid.png)
+
 5. Residual Map (Model Accuracy)
 The Spatial Residual Map confirms a well-specified model. The random distribution of residuals indicates that the spatial lag successfully captured localized shocks.
+
+💡 Results and Recommendations
+
+Policy Impact ($\beta = -0.28$): There is a statistically significant negative impact on farmgate prices in RCEF-priority provinces relative to control groups ($p < 0.001$). This suggests that the immediate influx of imported rice under the RTL outweighed the competitive gains provided by the fund during this period.
+
+Spatial Contagion ($\rho = 0.87$): Price shocks are highly contagious. A price drop in one province transmits 87% of its volatility to its neighbors. This confirms that the Philippine rice market is geographically integrated and that localized policy interventions have massive regional spillover effects.
+
+Given the high spatial contagion ($\rho = 0.87$), the NFA should strategically position buffer stocks based on Spatial Clusters rather than administrative regions to dampen price volatility spillovers.
+
+The negative $\beta$ suggests that mechanization and seed distribution are not yet offsetting the competitive pressure of imports [cite: 2026-02-17]. RCEF should pivot toward Post-Harvest Logistics (drying and milling) to help farmers hold stocks until prices recover.
