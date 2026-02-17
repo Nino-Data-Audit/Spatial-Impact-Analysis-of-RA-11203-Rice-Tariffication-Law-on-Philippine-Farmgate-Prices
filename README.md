@@ -25,7 +25,7 @@ The Logical Audit: Synchronized tabular data with a .json shapefile to ensure to
 1. Parallel Trends Validation
 This plot confirms that before the 2019 intervention, the treatment and control provinces followed a similar price trajectory, satisfying the core assumption of DiD modeling.
 
-
+![K Nearest Neighbours](k-neighbours.png)
 3. Spatial Connectivity (W-Matrix)
 This visualization illustrates the KNN-based spatial weights matrix used to control for geographic price contagion.
 
