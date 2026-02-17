@@ -38,7 +38,7 @@ This visualization illustrates the KNN-based spatial weights matrix used to cont
 ![Residual Map](spatial-residuals-of-sdid.png)
 
 Residual Map (Model Accuracy)
-The Spatial Residual Map confirms a well-specified model. The random distribution of residuals indicates that the spatial lag successfully captured localized shocks.
+The Spatial Residual Map confirms a well-specified model. The random distribution of residuals indicates that the spatial lag successfully captured localized shocks. The positive residuals observed in the Eastern Visayas and Southern Mindanao suggests that local factors—such as localized infrastructure gaps or regional supply shocks—buffered these areas from the full price-dampening effects of the RTL observed elsewhere, highlighting regional heterogeneity.
 
 💡 Results and Recommendations
 
