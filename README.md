@@ -13,6 +13,7 @@ The Spatial Contagion ($\rho$): 0.87 — Reveals that 87% of price shocks are sh
 
 The Global Moran's I (p < 0.0001): Provides the mathematical "permission slip" to use spatial modeling by proving pre-existing price clustering.
 
+
 🛠️ The Workflow (Logical Audit Trail)
 
 The Environment: Loaded splm for spatial panel modeling and spdep for weight matrix construction.
@@ -22,6 +23,7 @@ The ETL: Standardized PSA price datasets (2016-2025) and handled missing values 
 The Binary Transformation: Defined the Treated (RCEF-priority) and Post (Post-March 2019) variables.
 
 The Logical Audit: Synchronized tabular data with a .json shapefile to ensure topological integrity for the Spatial Weights Matrix ($W$).
+
 
 🗺️ Diagnostic Visualization
 
